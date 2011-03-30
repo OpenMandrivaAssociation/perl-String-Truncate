@@ -1,5 +1,5 @@
 %define upstream_name    String-Truncate
-%define upstream_version 1.100570
+%define upstream_version 1.100600
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
