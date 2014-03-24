@@ -1,5 +1,5 @@
 %define upstream_name    String-Truncate
-%define upstream_version 1.100601
+%define upstream_version 1.100602
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	A module for when strings are too long to be displayed in
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/String/String-Truncate-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/String/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Sub::Exporter)
@@ -59,4 +59,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Nov 06 2009 cpan2dist 0.102-1mdv
 - initial mdv release, generated with cpan2dist
+
 
